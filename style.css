@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.topnav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    align-content: flex-end;
+    justify-content: space-between;
+    color: white;
+    background-color: #0e1527;
+}
+
+section {
+    color: white;
+}
+
+body {
+    background-color: #0e1527;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.login {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: black;
+    background-color: #f0a927;
+    width: 7em;
+    height: 2.5em;
+    border-radius: 30em;
+    border: none
+}
+
+.head,
+.tex {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bold {
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.mai {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec {
+    padding: 20px;
+}
+
+.whi,
+.ye {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.fir img {
+    height: 530px;
+    width: 530px;
+}
+
+.ye {
+    color: #f0a927;
+}
+
+h3,
+h2,
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.tex,.spa{
+    color: #b0bac3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+.tap {
+    color: black;
+    background-color: #f0a927;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    border: none
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.tap:hover {
+    background-color: #0e1527;
+    color: #f0a927;
+    border-color: #f0a927;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #0e1527;
+    color: #f0a927;
+    border-color: #f0a927;
+    border-style: ridge;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #f0a927;
+    cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 44px;
+    width: 100%;
+}
+
+.main {
+    color: white;
+}
+
+
+#fi,
+#se {
+    height: auto;
+    width: 300px;
+    background-color: #121b32;
+    text-align: justify;
+    border-radius: 15px;
+    padding: 26px;
+}
+
+.firs,
+.second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#fi img,
+icon2,
+icon3 {
+    height: 30px;
+    width: 30px;
+}
+
+#se img,
+icon5,
+icon6 {
+    height: 30px;
+    width: 30px;
+}
+
+.f,.s {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#firs,.pehli {
+    border: 0.5px solid #f0a927;
+    height: auto;
+    width: 300px;
+    background-color: #121b32;
+    border-radius: 15px;
+    padding: 26px;
+}
+
+h4 {
+    color: white;
+}
+
+.dollar {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: bold;
+}
+#choose{
+    color: black;
+    background-color: #f0a927;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    width: 13em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    border: none
+}
+.dos{
+margin: 30px;
+    color: #b0bac3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+
+}
+h5{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px;
+}
+.b{
+color: #f0a927;
+}
+.back{
+    justify-content: space-between;
+}
+.a{
+    margin: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+}
+.c{
+    color: #b0bac3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0px 0px 10px;
+}
+.back{
+    display: flex;
+    background-image: url('https://privatevpn.app/Ellipse 77.png');
+    background-position: initial;
+}
+.k{
+    height: auto;
+    width:max-content
+}
+.vpn{
+    width: 554px;
+    height: 589px;
+}
+.pehla{
+
+    color: white;
+    height: auto;
+    width: 300px;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 26px;
+}
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px 0px;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.l{
+    color: white;
+}
+#a{
+    margin: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bold;
+}
+#s{
+    color: #b0bac3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    padding: 20px 0px 0px 0px; 
+}
+.ema{
+    color: #b0bac3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px 0px 0px 0px; 
+
+}
+.footer{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+    padding: 30px 30px; 
+}
+#choose:hover {
+    background-color: #0e1527;
+    color: #f0a927;
+    border-color: #f0a927;
+    border-style: ridge;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600px) {
+    .topnav{justify-content: center;}
+    .menu{justify-content: center;}
+    #login{justify-content: center;} 
+    .mai{justify-content: center;}
+    h1{font-size: 30px;text-align: center; ;}
+    .firs,.second,.f,.s{row-gap: 20px; justify-content: center;}
+    .back{flex-direction: column;}
+    .pic{display: flex; justify-content: center;}
+    .sec{display: flex;flex-direction: column; justify-content: center;}
+    .main{display: flex;flex-direction: column; justify-content: center;}
+    .fir{display: flex; justify-content: center;}
+    .head{display: flex; justify-content: center;}
+    .ye,.whi{font-size: 30px;}
+    .last{justify-content: center;}
+    .review{display:flex; justify-content:center; row-gap: 20px;}
+    .l{display: flex; flex-direction: column; justify-content: center;}
+}
+  
+  
